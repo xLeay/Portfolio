@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* APP ========================================================================================================================================================= */
+/* APP ========================================================================================================================================================= */
+/* APP ========================================================================================================================================================= */
+/* APP ========================================================================================================================================================= */
+:root {
+    --background: #FFFFFF;
+    --body: #F9F9F9;
+    --text: #000000;
+    --secondary_info: #999999;
+    --stroke: #DDDDDD;
+    --hover_a: #F1F1F1;
+    --active_a: #EEEEEE;
+
+    --padding: 160px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: var(--body);
+    height: 100vh;
+    scrollbar-gutter: stable both-edges;
+}
+
+.extrabold {
+    font-weight: 800;
+}
+
+.bolder {
+    font-weight: 700;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.semibold {
+    font-weight: 500;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.important_info {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.less_important_info {
+    color: var(--secondary_info);
+    font-weight: 600;
+}
+
+.hide {
+    display: none;
+}
+
+.card {
+    background: var(--background);
+    border-radius: 5px;
+    border: 1px solid var(--stroke);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:target {
+    outline: 5px solid var(--stroke);
+    outline-offset: 10px;
+}
+
+.scroll_to_top {
+    background: var(--background);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    border: 1px solid var(--stroke);
+    cursor: pointer;
+    transform: translateY(20vh);
+    user-select: none;
+    z-index: 10;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* NAV ========================================================================================================================================================= */
+/* NAV ========================================================================================================================================================= */
+/* NAV ========================================================================================================================================================= */
+/* NAV ========================================================================================================================================================= */
+.nav_invisible {
+    visibility: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background: var(--background);
+    height: 50px;
+}
+
+.nav_logo {
+    display: flex;
+}
+
+.nav_indicator {
+    display: flex;
+    gap: 10px;
+}
+
+.nav_indicator__item {
+    padding: 5px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.nav_indicator--active {
+    background: var(--active_a);
+}
+
+.nav_indicator__item:hover {
+    background: var(--hover_a);
+}
+
+.nav_indicator__item:active {
+    background: var(--active_a);
+}
+
+.nav_indicator__item p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* BODY ========================================================================================================================================================= */
+/* BODY ========================================================================================================================================================= */
+/* BODY ========================================================================================================================================================= */
+/* BODY ========================================================================================================================================================= */
+.main_container {
+    padding-inline: var(--padding);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #000;
+}
+
+.section_title {
+    margin-top: 75px;
+}
+
+.projects_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 50px;
+}
+
+.projects_grid__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project {
+    height: 250px;
+}
+
+.project_name {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* FOOTER ========================================================================================================================================================= */
+/* FOOTER ========================================================================================================================================================= */
+/* FOOTER ========================================================================================================================================================= */
+/* FOOTER ========================================================================================================================================================= */
+footer {
+    border-top: 1px solid var(--stroke);
+    background: #fff;
+    padding: 70px 200px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* RESPONSIVE ========================================================================================================================================================= */
+/* RESPONSIVE ========================================================================================================================================================= */
+/* RESPONSIVE ========================================================================================================================================================= */
+/* RESPONSIVE ========================================================================================================================================================= */
