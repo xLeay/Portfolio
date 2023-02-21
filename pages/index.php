@@ -75,9 +75,9 @@
                 <div class="skill_category__item">
                     <p class="skill_self__label">Soft skills</p>
                 </div>
-                <!-- <div class="skill_category__item">
+                <div class="skill_category__item">
                     <p class="skill_self__label">Other</p>
-                </div> -->
+                </div>
             </div>
 
             <div class="separator"></div>
@@ -243,5 +243,40 @@
 
     <section>
         <p class="bolder section_title">My career</p>
+
+        <div class="career__wrapper">
+
+            <div class="career-center">
+                <div class="track-s"></div>
+            </div>
+
+
+            <div class="career">
+                <div class="career-left">
+                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 15.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0zm2.86 1.5a8.004 8.004 0 0 1-15.72 0H1.5a1.5 1.5 0 1 1 0-3h6.64a8.002 8.002 0 0 1 15.72 0h6.64a1.5 1.5 0 0 1 0 3h-6.64z" fill="#000" />
+                    </svg>
+
+                    <div class="track"></div>
+                </div>
+
+                <div class="career-right">
+                    <p class="career_date">Sep, 2014 - Jul, 2018</p>
+
+                    <div class="career_estab card">
+                        <p><span class="bolder">Georges Sand •</span> Middle School, Crégy-lès-Meaux (77124)</p>
+                        <p class="career_diploma">Certificate of General Education</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section>
+        <p class="bolder section_title">Contact me</p>
+
     </section>
 </div>
