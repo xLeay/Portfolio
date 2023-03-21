@@ -266,17 +266,82 @@
                     <div class="career_estab card">
                         <p><span class="bolder">Georges Sand •</span> Middle School, Crégy-lès-Meaux (77124)</p>
                         <p class="career_diploma">Certificate of General Education</p>
+
+                        <div class="estab_link card">
+                            <a href="http://www.collegesandcregy.websco.fr/" target="_blank">
+                                <span class="material-symbols-rounded">unfold_more</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="career">
+                <div class="career-left">
+                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 15.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0zm2.86 1.5a8.004 8.004 0 0 1-15.72 0H1.5a1.5 1.5 0 1 1 0-3h6.64a8.002 8.002 0 0 1 15.72 0h6.64a1.5 1.5 0 0 1 0 3h-6.64z" fill="#000" />
+                    </svg>
+
+                    <div class="track"></div>
+                </div>
+
+                <div class="career-right">
+                    <p class="career_date">Sep, 2018 - Jul, 2021</p>
+
+                    <div class="career_estab card">
+                        <p><span class="bolder">Pierre de Coubertin •</span> High School, Meaux (77100)</p>
+                        <p class="career_diploma">Bachelor of Science and Technology for Industry and Sustainable Development</p>
+
+                        <div class="estab_link card">
+                            <a href="https://www.coubertin-meaux.fr/" target="_blank">
+                                <span class="material-symbols-rounded">unfold_more</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="career">
+                <div class="career-left">
+                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 15.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0zm2.86 1.5a8.004 8.004 0 0 1-15.72 0H1.5a1.5 1.5 0 1 1 0-3h6.64a8.002 8.002 0 0 1 15.72 0h6.64a1.5 1.5 0 0 1 0 3h-6.64z" fill="#000" />
+                    </svg>
+
+                    <div class="track"></div>
+                </div>
+
+                <div class="career-right">
+                    <p class="career_date">Sep, 2021 - Jul, 2024 <span class="bold">(ongoing)</span></p>
+
+                    <div class="career_estab card">
+                        <p><span class="bolder">Gustave Eiffel •</span> University, Champs-sur-Marne (77420)</p>
+                        <p class="career_diploma">Bachelor of Application realization: design, development, validation</p>
+
+                        <div class="estab_link card">
+                            <a href="https://www.univ-gustave-eiffel.fr/" target="_blank">
+                                <span class="material-symbols-rounded">unfold_more</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
 
-
     </section>
 
     <section>
         <p class="bolder section_title">Contact me</p>
 
+        <p>If you have any question, feel free to contact me by email. You can also download my resume underneath.</p>
+
+        <div class="contact_btns">
+            <a href="mailto:yael.coeffier@gmail.com" class="contact-me__btn btn">Contact me <span class="material-symbols-rounded">alternate_email</span> </a>
+            <a href="/src/pdf/CV_2023-02-08_YAËL_COËFFIER.pdf" class="resume__btn btn" target="_blank">Resume <span class="material-symbols-rounded">download</span> </a>
+        </div>
     </section>
 </div>

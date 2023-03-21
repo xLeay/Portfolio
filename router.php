@@ -51,6 +51,7 @@ function loadPage($page, $with_head = true)
     global $basepath, $og, $canonical;
     $path =  "pages" . DIRECTORY_SEPARATOR . $page . ".php";
     $headPath = "pages" . DIRECTORY_SEPARATOR . $page . ".head.php";
+
     if (file_exists($path)) {
         if ($with_head) {
             $appendHead = loadAsset($page, 'css');
@@ -73,6 +74,13 @@ switch ($request) {
             "description" => "Yaël COËFFIER - Portfolio"
         ];
         loadPage("index");
+        break;
+    case "/privacy":
+        $og = (object) [
+            "title" => "Privacy Policy",
+            "description" => "Privacy Policy"
+        ];
+        loadPage("privacy");
         break;
     case "/404":
         $og = (object) [
