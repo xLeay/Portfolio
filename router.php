@@ -75,6 +75,63 @@ switch ($request) {
         ];
         loadPage("index");
         break;
+
+    case "/mont-saint-michel":
+        $og = (object) [
+            "title" => "Projet - Mont-Saint-Michel",
+            "description" => "Projet - Mont-Saint-Michel"
+        ];
+        loadPage("msm");
+        break;
+    
+    case "/champions-mastery":
+        $og = (object) [
+            "title" => "Projet - Lol Champions Mastery",
+            "description" => "Projet - Lol Champions Mastery"
+        ];
+        loadPage("champ-mastery");
+        break;
+    
+    case "/calls":
+        $og = (object) [
+            "title" => "Projet - Calls tribute",
+            "description" => "Projet - Calls tribute"
+        ];
+        loadPage("calls");
+        break;
+    
+    case "/thesesviz":
+        $og = (object) [
+            "title" => "Projet - ThesesViz",
+            "description" => "Projet - ThesesViz"
+        ];
+        loadPage("theses");
+        break;
+    
+    case "/loop-hero":
+        $og = (object) [
+            "title" => "Projet - Loop Hero",
+            "description" => "Projet - Loop Hero"
+        ];
+        loadPage("loop-hero");
+        break;
+    
+    case "/boggle":
+        $og = (object) [
+            "title" => "Projet - Boggle",
+            "description" => "Projet - Boggle"
+        ];
+        loadPage("boggle");
+        break;
+    
+    case "/azul":
+        $og = (object) [
+            "title" => "Projet - Azul Clone",
+            "description" => "Projet - Azul Clone"
+        ];
+        loadPage("azul");
+        break;
+
     case "/privacy":
         $og = (object) [
             "title" => "Privacy Policy",
@@ -82,6 +139,7 @@ switch ($request) {
         ];
         loadPage("privacy");
         break;
+
     case "/404":
         $og = (object) [
             "title" => "",
