@@ -81,17 +81,17 @@ switch ($request) {
             "title" => "Projet - Mont-Saint-Michel",
             "description" => "Projet - Mont-Saint-Michel"
         ];
-        loadPage("msm");
+        loadPage("mont-saint-michel");
         break;
-    
+
     case "/champions-mastery":
         $og = (object) [
             "title" => "Projet - Lol Champions Mastery",
             "description" => "Projet - Lol Champions Mastery"
         ];
-        loadPage("champ-mastery");
+        loadPage("champions-mastery");
         break;
-    
+
     case "/calls":
         $og = (object) [
             "title" => "Projet - Calls tribute",
@@ -99,7 +99,7 @@ switch ($request) {
         ];
         loadPage("calls");
         break;
-    
+
     case "/thesesviz":
         $og = (object) [
             "title" => "Projet - ThesesViz",
@@ -107,7 +107,7 @@ switch ($request) {
         ];
         loadPage("theses");
         break;
-    
+
     case "/loop-hero":
         $og = (object) [
             "title" => "Projet - Loop Hero",
@@ -115,7 +115,7 @@ switch ($request) {
         ];
         loadPage("loop-hero");
         break;
-    
+
     case "/boggle":
         $og = (object) [
             "title" => "Projet - Boggle",
@@ -123,7 +123,7 @@ switch ($request) {
         ];
         loadPage("boggle");
         break;
-    
+
     case "/azul":
         $og = (object) [
             "title" => "Projet - Azul Clone",
