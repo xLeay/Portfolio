@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Comic';
+    src:
+        url('./Comic_Helvetic/ComicHelvetic_Medium.otf'),
+        url('./Comic_Helvetic/ComicHelvetic_Light.otf');
+    font-weight: bold, normal;
+    font-style: normal;
+}

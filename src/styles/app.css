@@ -4,23 +4,41 @@
 /* APP ========================================================================================================================================================= */
 /* APP ========================================================================================================================================================= */
 /* APP ========================================================================================================================================================= */
-:root {
+:root.theme1 {
     --background: #FFFFFF;
     --body: #F9F9F9;
     --text: #000000;
     --secondary_info: #999999;
     --stroke: #DDDDDD;
+    --stroke2: #BBBBBB;
+    --stroke3: #999999;
     --hover_a: #F1F1F1;
     --active_a: #DDDDDD;
 
     --padding: 150px;
+    --font: 'Manrope', sans-serif;
+}
+
+:root.theme2 {
+    --background: #ff98b5;
+    --body: #90ffeb;
+    --text: #2e70c7;
+    --secondary_info: #86A4CC;
+    --stroke: #C5D7EE;
+    --stroke2: #8EACD3;
+    --stroke3: #5783BC;
+    --hover_a: #b30033;
+    --active_a: #7a0023;
+
+    --padding: 150px;
+    --font: 'Comic', sans-serif;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Manrope', sans-serif;
+    font-family: var(--font);
 }
 
 html,
@@ -60,6 +78,7 @@ body {
 .important_info {
     color: var(--text);
     font-weight: 600;
+    display: inline !important;
 }
 
 .less_important_info {
@@ -78,7 +97,11 @@ body {
 }
 
 .bd {
-    border: 1px solid #000;
+    border: 1px solid var(--text);
+}
+
+p {
+    color: var(--text);
 }
 
 a {
@@ -145,7 +168,7 @@ p {
 }
 
 .contact-me__btn {
-    background: #000;
+    background: var(--text);
     color: var(--background);
 }
 
@@ -277,6 +300,16 @@ a {
     color: #3372A2;
 }
 
+.and-l {
+    border: 2px solid #089C5F;
+    color: #089C5F;
+    background: #E7F6EF;
+}
+
+.and-c {
+    color: #089C5F;
+}
+
 .counter-l {
     border: 2px solid #000000;
     color: #000000;
@@ -285,6 +318,25 @@ a {
 
 .counter-c {
     color: #000000;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--stroke);
+    border: 0.2em solid var(--background);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--stroke2);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: var(--stroke3)
 }
 
 /* NAV ========================================================================================================================================================= */
@@ -303,6 +355,7 @@ nav {
     background: var(--background);
     height: 50px;
     border-bottom: 1px solid var(--stroke);
+    user-select: none;
 }
 
 .nav_logo {
@@ -337,6 +390,23 @@ nav {
     font-weight: 500;
 }
 
+.nav_indicator__item button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.button-nav_indicator {
+    padding: 5px 8px;
+}
+
+#change-theme {
+    color: var(--text);
+}
+
 /* BODY ========================================================================================================================================================= */
 /* BODY ========================================================================================================================================================= */
 /* BODY ========================================================================================================================================================= */
@@ -350,7 +420,6 @@ section {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    /* border: 1px solid #000; */
 }
 
 .section_title {
@@ -433,7 +502,6 @@ section {
 }
 
 .skills_items {
-    /* border: 1px solid #000; */
     padding: 30px 60px 60px 60px;
     display: flex;
     flex-flow: row wrap;
@@ -442,7 +510,6 @@ section {
 }
 
 .skill_item {
-    /* border: 1px solid red; */
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -503,13 +570,11 @@ section {
 }
 
 .career {
-    /* border: 1px solid #000; */
     display: flex;
     margin-bottom: 20px;
 }
 
 .career-center {
-    /* border: 1px solid #000; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -518,14 +583,12 @@ section {
 }
 
 .career-left {
-    /* border: 1px solid #000; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .career-right {
-    /* border: 1px solid #000; */
     margin-left: 15px;
     width: 65%;
 }
@@ -543,7 +606,6 @@ section {
 }
 
 .career_date {
-    /* border: 1px solid #000; */
     margin-bottom: 10px;
 }
 
@@ -591,7 +653,7 @@ section {
     top: -57%;
     left: 100%;
     transform: translate(-50%, -50%);
-    background: #000;
+    background: var(--text);
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 12px;
@@ -610,7 +672,7 @@ section {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #000;
+    border-top: 6px solid var(--text);
     opacity: 0;
 }
 
@@ -635,34 +697,29 @@ section {
 /* PROJECTS ========================================================================================================================================================= */
 /* PROJECTS ========================================================================================================================================================= */
 .project_header {
-    /* border: 1px solid #000; */
     display: grid;
     grid-template-columns: 3fr 2fr;
     column-gap: 50px;
 }
 
 .project_imgs {
-    /* border: 1px solid #000; */
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .imgs_wrapper {
-    /* border: 1px solid #000; */
     display: flex;
     gap: 20px;
 }
 
 .project_details {
-    /* border: 1px solid #000; */
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
 .project_details--item {
-    /* border: 1px solid #000; */
     gap: 15px;
 }
 
@@ -715,7 +772,7 @@ section {
     display: block;
     width: fit-content;
     text-align: center;
-    color: #fff;
+    color: var(--background);
     height: fit-content;
     font-size: 20px;
     margin-top: 10px;
@@ -729,7 +786,7 @@ section {
 footer {
     margin-top: 100px;
     border-top: 1px solid var(--stroke);
-    background: #fff;
+    background: var(--background);
     padding: 70px 200px;
 }
 
@@ -804,7 +861,11 @@ footer a {
 /* RESPONSIVE ========================================================================================================================================================= */
 /* RESPONSIVE ========================================================================================================================================================= */
 @media (max-width: 800px) {
-    :root {
+    :root.theme1 {
+        --padding: 10px;
+    }
+
+    :root.theme2 {
         --padding: 10px;
     }
 

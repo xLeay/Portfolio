@@ -6,7 +6,7 @@
         <div class="project_header">
             <div class="project_imgs">
                 <div class="img_container">
-                    <img src="/src/img/projects/championsmastery.png" alt="Mont-Saint-Michel">
+                    <img src="/src/img/projects/championsmastery.png" alt="LoL Champions Mastery">
                 </div>
 
                 <div class="imgs_wrapper">

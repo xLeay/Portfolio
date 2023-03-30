@@ -31,9 +31,15 @@ $current_page = $_SERVER['REQUEST_URI'];
             <div class="nav_indicator__item">
                 <p>Contact</p>
             </div>
+            <div class="nav_indicator__item button-nav_indicator">
+                <button><span class="material-symbols-rounded" id="change-theme">temp_preferences_custom</span></button>
+            </div>
         <?php else : ?>
             <div class="nav_indicator__item">
                 <p><a href="/">Accueil</a></p>
+            </div>
+            <div class="nav_indicator__item button-nav_indicator">
+                <button><span class="material-symbols-rounded" id="change-theme">temp_preferences_custom</span></button>
             </div>
         <?php endif; ?>
     </div>
@@ -69,7 +75,6 @@ $current_page = $_SERVER['REQUEST_URI'];
     function toggleMenu() {
         hamburger.classList.toggle('hamburger_menu--open');
         nav_indicator.classList.toggle('away');
-        console.log('click');
     }
 
     hamburger.addEventListener('click', () => {
@@ -78,4 +83,36 @@ $current_page = $_SERVER['REQUEST_URI'];
         toggleMenu();
 
     });
+
+
+    const change_theme = document.querySelector('.button-nav_indicator');
+    const root = document.documentElement;
+
+    // Au chargement de la page, appliquer le thème par défaut à moins que dans le localStorage il y ait un thème enregistré
+    let theme = localStorage.getItem('theme');
+    if (theme === 'theme1') {
+        root.classList.add('theme1');
+    } else if (theme === 'theme2') {
+        root.classList.add('theme2');
+    } else {
+        root.classList.add('theme1');
+    }
+
+    change_theme.onclick = function() {
+        if (root.classList.contains('theme1')) {
+            // Si le thème actuel est le theme1, changer en theme2
+            root.classList.remove('theme1');
+            root.classList.add('theme2');
+
+            // Enregistrer le thème dans le localStorage
+            localStorage.setItem('theme', 'theme2');
+        } else {
+            // Sinon, le thème actuel est theme2, changer en theme1
+            root.classList.remove('theme2');
+            root.classList.add('theme1');
+
+            // Enregistrer le thème dans le localStorage
+            localStorage.setItem('theme', 'theme1');
+        }
+    };
 </script>
