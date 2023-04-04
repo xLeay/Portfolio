@@ -7,7 +7,7 @@ $current_page = $_SERVER['REQUEST_URI'];
     <div class="nav_header">
         <div class="nav_logo">
             <a href="/">
-                <img src="/src/img/logo.svg" alt="Yaël COËFFIER's logo">
+                <img src="/src/img/logo.svg" class="filter_invert" alt="Yaël COËFFIER's logo">
             </a>
         </div>
 

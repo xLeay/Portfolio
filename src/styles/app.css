@@ -19,7 +19,7 @@
     --font: 'Manrope', sans-serif;
 }
 
-:root.theme2 {
+/* :root.theme2 {
     --background: #ff98b5;
     --body: #90ffeb;
     --text: #2e70c7;
@@ -32,6 +32,27 @@
 
     --padding: 150px;
     --font: 'Comic', sans-serif;
+} */
+
+:root.theme2 {
+    --background: #1D1D1D;
+    --body: #121212;
+    --text: #E1E1E1;
+    --secondary_info: #7D7D7D;
+    --stroke: #363636;
+    --stroke2: #C6C6C6;
+    --stroke3: #C5C5C5;
+    --hover_a: #2D2D2D;
+    --active_a: #3D3D3D;
+
+    --padding: 150px;
+    --font: 'Manrope', sans-serif;
+
+    --filter_invert: invert(1);
+}
+
+.filter_invert {
+    filter: var(--filter_invert);
 }
 
 * {
@@ -100,13 +121,17 @@ body {
     border: 1px solid var(--text);
 }
 
-p {
+p, span {
     color: var(--text);
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--text);
+}
+
+svg, path {
+    fill: var(--text);
 }
 
 :target {
@@ -690,6 +715,10 @@ section {
 .contact_btns {
     display: flex;
     gap: 20px;
+}
+
+.contact_btns span {
+    color: inherit;
 }
 
 /* PROJECTS ========================================================================================================================================================= */

@@ -237,7 +237,7 @@
                 <div class="skill_item">
                     <a href="https://github.com/" target="_blank">
                         <div class="skill_item-logo">
-                            <img src="/src/img/github.svg" alt="Github logo">
+                            <img src="/src/img/github.svg" class="filter_invert" alt="Github logo">
                         </div>
                         <p class="skill_item-name">Github</p>
                     </a>
@@ -381,7 +381,7 @@
                 <div class="skill_item">
                     <a href="https://corporatefinanceinstitute.com/resources/management/communication/" target="_blank">
                         <div class="skill_item-logo">
-                            <img src="/src/img/communication.svg" alt="Communication logo">
+                            <img src="/src/img/communication.svg" class="filter_invert" alt="Communication logo">
                         </div>
                         <p class="skill_item-name">Communication</p>
                     </a>
@@ -390,7 +390,7 @@
                 <div class="skill_item">
                     <a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank">
                         <div class="skill_item-logo">
-                            <img src="/src/img/agile.svg" alt="Agile icon">
+                            <img src="/src/img/agile.svg" class="filter_invert" alt="Agile icon">
                         </div>
                         <p class="skill_item-name">Agile</p>
                     </a>
@@ -399,7 +399,7 @@
                 <div class="skill_item">
                     <a href="https://en.wikipedia.org/wiki/Creativity" target="_blank">
                         <div class="skill_item-logo">
-                            <img src="/src/img/creative.svg" alt="Creative icon">
+                            <img src="/src/img/creative.svg" class="filter_invert" alt="Creative icon">
                         </div>
                         <p class="skill_item-name">Creative</p>
                     </a>
@@ -421,7 +421,7 @@
 
             <div class="career">
                 <div class="career-left">
-                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                    <svg width="32" height="32" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M21 15.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0zm2.86 1.5a8.004 8.004 0 0 1-15.72 0H1.5a1.5 1.5 0 1 1 0-3h6.64a8.002 8.002 0 0 1 15.72 0h6.64a1.5 1.5 0 0 1 0 3h-6.64z" fill="#000" />
                     </svg>
 
@@ -448,7 +448,7 @@
 
             <div class="career">
                 <div class="career-left">
-                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                    <svg width="32" height="32" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M21 15.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0zm2.86 1.5a8.004 8.004 0 0 1-15.72 0H1.5a1.5 1.5 0 1 1 0-3h6.64a8.002 8.002 0 0 1 15.72 0h6.64a1.5 1.5 0 0 1 0 3h-6.64z" fill="#000" />
                     </svg>
 
@@ -475,8 +475,8 @@
 
             <div class="career">
                 <div class="career-left">
-                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 15.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0zm2.86 1.5a8.004 8.004 0 0 1-15.72 0H1.5a1.5 1.5 0 1 1 0-3h6.64a8.002 8.002 0 0 1 15.72 0h6.64a1.5 1.5 0 0 1 0 3h-6.64z" fill="#000" />
+                    <svg width="32" height="32" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 15.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0zm2.86 1.5a8.004 8.004 0 0 1-15.72 0H1.5a1.5 1.5 0 1 1 0-3h6.64a8.002 8.002 0 0 1 15.72 0h6.64a1.5 1.5 0 0 1 0 3h-6.64z" fill="currentColor" />
                     </svg>
 
                     <div class="track"></div>
