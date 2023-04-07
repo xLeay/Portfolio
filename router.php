@@ -132,14 +132,6 @@ switch ($request) {
         loadPage("azul");
         break;
 
-    case "/privacy":
-        $og = (object) [
-            "title" => "Privacy Policy",
-            "description" => "Privacy Policy"
-        ];
-        loadPage("privacy");
-        break;
-
     case "/404":
         $og = (object) [
             "title" => "",

@@ -52,6 +52,22 @@
 
         <div class="project_content">
             <p><span class="bold">Manage</span> : "Database management and optimization": managing, querying, and updating relational databases, designing database structures based on specifications, optimizing data models, ensuring data confidentiality and security, programming and visualizing data output, and manipulating heterogeneous data.</p>
+
+            <br>
+            <ul>
+                <li>
+                    <p>Optimize the company's data models</p>
+                </li>
+                <li>
+                    <p>Ensure data security (integrity and confidentiality)</p>
+                </li>
+                <li>
+                    <p>Organize the restitution of data through programming and visualization</p>
+                </li>
+                <li>
+                    <p>Handle heterogeneous data</p>
+                </li>
+            </ul>
         </div>
     </section>
 

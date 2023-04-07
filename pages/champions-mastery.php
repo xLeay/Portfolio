@@ -49,6 +49,22 @@
 
         <div class="project_content">
             <p><span class="bold">Leading</span> : Coordinate and manage IT projects by understanding client and user needs, identifying project phases and actors, formalizing requirements, assessing feasibility criteria, implementing project monitoring processes, and improving information systems within the organization.</p>
+
+            <br>
+            <ul>
+                <li>
+                    <p>Identify the processes present in an organization in order to improve the information systems</p>
+                </li>
+                <li>
+                    <p>Formalize the needs of the client and the user</p>
+                </li>
+                <li>
+                    <p>Identify the feasibility criteria of an IT project</p>
+                </li>
+                <li>
+                    <p>Define and implement a project follow-up process</p>
+                </li>
+            </ul>
         </div>
     </section>
 

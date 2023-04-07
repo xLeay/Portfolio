@@ -54,8 +54,37 @@
             <p><span class="bold">Optimize</span> : Develop computer science solutions by analyzing and solving problems methodically using algorithms, complex data structures, and appropriate algorithmic techniques. Understand the differences between programming paradigms and data and code security issues. Evaluate the environmental and social impacts of proposed solutions and anticipate the results of various metrics such as execution time and memory occupancy. Apply scientific computing methods and identify technical solutions to manage application scalability.</p>
 
             <br>
+            <ul>
+                <li>
+                    <p>Choose complex data structures adapted to the problem</p>
+                </li>
+                <li>
+                    <p>Use appropriate algorithmic techniques for complex problems (e.g., operations research, tree methods, global optimization, artificial intelligence)</p>
+                </li>
+                <li>
+                    <p>Understand the issues and means of securing data and code</p>
+                </li>
+                <li>
+                    <p>Evaluate the environmental and societal impact of proposed solutions</p>
+                </li>
+            </ul>
+
+            <br>
 
             <p><span class="bold">Administrate</span> : Configure, install and administer operating systems and development tools, design and develop communicating applications, use servers and virtualized network services, ensure the security of system services and data, and write technical documentation in French and English.</p>
+
+            <br>
+            <ul>
+                <li>
+                    <p>Design and develop communicating applications</p>
+                </li>
+                <li>
+                    <p>Use virtualized servers and network services</p>
+                </li>
+                <li>
+                    <p>Secure system services and data</p>
+                </li>
+            </ul>
         </div>
     </section>
 

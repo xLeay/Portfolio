@@ -9,7 +9,6 @@
         <div class="footer_section--wrap">
             <div class="footer_section">
                 <a href="mailto:yael.coeffier@gmail.com" class="footer_link">yael.coeffier@gmail.com</a>
-                <a href="/privacy" class="footer_link">Privacy policy</a>
             </div>
 
             <div class="footer_section">

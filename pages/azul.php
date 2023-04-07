@@ -52,6 +52,22 @@
 
         <div class="project_content">
             <p><span class="bold">Create</span> : Develop applications with functional and non-functional specifications using good design and programming practices, testing, and adapting existing solutions, while verifying and validating application quality, choosing and implementing appropriate architectures, and integrating solutions into a production environment.</p>
+
+            <br>
+            <ul>
+                <li>
+                    <p>Develop and implement functional and non-functional specifications based on requirements</p>
+                </li>
+                <li>
+                    <p>Apply principles of accessibility and ergonomics</p>
+                </li>
+                <li>
+                    <p>Adopt good design and programming practices</p>
+                </li>
+                <li>
+                    <p>Verify and validate the quality of the application through testing</p>
+                </li>
+            </ul>
         </div>
     </section>
 

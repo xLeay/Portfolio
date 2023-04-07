@@ -52,6 +52,22 @@
 
         <div class="project_content">
             <p><span class="bold">Collaborate</span> : This competence involves the ability to identify, configure, develop, and secure the various components of a computer system, including hardware and software aspects, enterprise networks and virtualized servers, as well as writing technical documentation in both French and English.</p>
+
+            <br>
+            <ul>
+                <li>
+                    <p>Understand the diversity, the structure and the dimension of IT in an DSC or ISD organization (Digital Services Company, Information Systems Department)</p>
+                </li>
+                <li>
+                    <p>Apply an approach to integrate an IT team within an organization</p>
+                </li>
+                <li>
+                    <p>Mobilize interpersonal skills to work in an IT team</p>
+                </li>
+                <li>
+                    <p>Report on one's professional activity</p>
+                </li>
+            </ul>
         </div>
     </section>
 
