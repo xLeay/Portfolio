@@ -27,6 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="/src/font/comic.css">
+    <link rel="shortcut icon" type="image/svg+xml" href="<?= $basepath ?>/src/img/logo_framed.svg" id="js-favicon" />
 </head>
 
 <body>

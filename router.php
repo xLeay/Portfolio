@@ -84,6 +84,14 @@ switch ($request) {
         loadPage("mont-saint-michel");
         break;
 
+    case "/vill-innov":
+        $og = (object) [
+            "title" => "Projet - Vill'innov",
+            "description" => "Projet - Vill'innov"
+        ];
+        loadPage("vill-innov");
+        break;
+
     case "/champions-mastery":
         $og = (object) [
             "title" => "Projet - Lol Champions Mastery",

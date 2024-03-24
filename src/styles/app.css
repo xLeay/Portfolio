@@ -17,6 +17,33 @@
 
     --padding: 150px;
     --font: 'Manrope', sans-serif;
+
+    --js-1: #dbcb37;
+    --js-2: #FFFAD9;
+    --php-1: #777BB4;
+    --php-2: #DADEEE;
+    --html-1: #E34C26;
+    --html-2: #EEC9BF;
+    --css-1: #1572B6;
+    --css-2: #D0E0ED;
+    --mysql-1: #00618B;
+    --mysql-2: #CDE4ED;
+    --java-1: #B07219;
+    --java-2: #EFDFC9;
+    --c-1: #555555;
+    --c-2: #C9C9C9;
+    --pr-1: #9999FF;
+    --pr-2: #CFCFE9;
+    --ae-1: #9A9AFF;
+    --ae-2: #CFCFE4;
+    --py-1: #3372A2;
+    --py-2: #CADEEE;
+    --and-1: #089C5F;
+    --and-2: #E7F6EF;
+    --mongo-1: #00EB74;
+    --mongo-2: #E1F8ED;
+    --counter-1: #000000;
+    --counter-2: #EFEFEF;
 }
 
 /* :root.theme2 {
@@ -49,6 +76,33 @@
     --font: 'Manrope', sans-serif;
 
     --filter_invert: invert(1);
+
+    --js-2: #dbcb37;
+    --js-1: #FFFAD9;
+    --php-2: #777BB4;
+    --php-1: #DADEEE;
+    --html-2: #E34C26;
+    --html-1: #EEC9BF;
+    --css-2: #1572B6;
+    --css-1: #D0E0ED;
+    --mysql-2: #00618B;
+    --mysql-1: #CDE4ED;
+    --java-2: #B07219;
+    --java-1: #EFDFC9;
+    --c-2: #555555;
+    --c-1: #C9C9C9;
+    --pr-2: #9999FF;
+    --pr-1: #CFCFE9;
+    --ae-2: #9A9AFF;
+    --ae-1: #CFCFE4;
+    --py-2: #3372A2;
+    --py-1: #CADEEE;
+    --and-2: #089C5F;
+    --and-1: #E7F6EF;
+    --mongo-2: #00EB74;
+    --mongo-1: #E1F8ED;
+    --counter-2: #000000;
+    --counter-1: #EFEFEF;
 }
 
 .filter_invert {
@@ -121,7 +175,8 @@ body {
     border: 1px solid var(--text);
 }
 
-p, span {
+p,
+span {
     color: var(--text);
 }
 
@@ -130,7 +185,8 @@ a {
     color: var(--text);
 }
 
-svg, path {
+svg,
+path {
     fill: var(--text);
 }
 
@@ -160,10 +216,15 @@ svg, path {
 
 .show {
     transform: translateY(0);
-}
+    transition: background 0.2s ease;
 
-.show:hover {
-    background: var(--primary25);
+    &:hover {
+        background: var(--hover_a);
+    }
+
+    &:active {
+        background: var(--active_a);
+    }
 }
 
 p {
@@ -209,9 +270,11 @@ a {
     width: fit-content;
     height: fit-content;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
     user-select: none;
+    border-radius: 10px;
 }
 
 .skill__label {
@@ -226,123 +289,133 @@ a {
 }
 
 .js-l {
-    border: 2px solid #dbcb37;
-    color: #dbcb37;
-    background: #FFFAD9;
+    border: 2px solid var(--js-1);
+    color: var(--js-1);
+    background: var(--js-2);
 }
 
 .js-c {
-    color: #dbcb37;
+    color: var(--js-1);
 }
 
 .php-l {
-    border: 2px solid #777BB4;
-    color: #777BB4;
-    background: #DADEEE;
+    border: 2px solid var(--php-1);
+    color: var(--php-1);
+    background: var(--php-2);
 }
 
 .php-c {
-    color: #777BB4;
+    color: var(--php-1);
 }
 
 .html-l {
-    border: 2px solid #E34C26;
-    color: #E34C26;
-    background: #EEC9BF;
+    border: 2px solid var(--html-1);
+    color: var(--html-1);
+    background: var(--html-2);
 }
 
 .html-c {
-    color: #E34C26;
+    color: var(--html-1);
 }
 
 .css-l {
-    border: 2px solid #1572B6;
-    color: #1572B6;
-    background: #D0E0ED;
+    border: 2px solid var(--css-1);
+    color: var(--css-1);
+    background: var(--css-2);
 }
 
 .css-c {
-    color: #1572B6;
+    color: var(--css-1);
 }
 
 .mysql-l {
-    border: 2px solid #00618B;
-    color: #00618B;
-    background: #CDE4ED;
+    border: 2px solid var(--mysql-1);
+    color: var(--mysql-1);
+    background: var(--mysql-2);
 }
 
 .mysql-c {
-    color: #00618B;
+    color: var(--mysql-1);
 }
 
 .java-l {
-    border: 2px solid #B07219;
-    color: #B07219;
-    background: #EFDFC9;
+    border: 2px solid var(--java-1);
+    color: var(--java-1);
+    background: var(--java-2);
 }
 
 .java-c {
-    color: #B07219;
+    color: var(--java-1);
 }
 
 .c-l {
-    border: 2px solid #555555;
-    color: #555555;
-    background: #C9C9C9;
+    border: 2px solid var(--c-1);
+    color: var(--c-1);
+    background: var(--c-2);
 }
 
 .c-c {
-    color: #555555;
+    color: var(--c-1);
 }
 
 .pr-l {
-    border: 2px solid #9999FF;
-    color: #9999FF;
-    background: #CFCFE9;
+    border: 2px solid var(--pr-1);
+    color: var(--pr-1);
+    background: var(--pr-2);
 }
 
 .pr-c {
-    color: #9999FF;
+    color: var(--pr-1);
 }
 
 .ae-l {
-    border: 2px solid #9A9AFF;
-    color: #9A9AFF;
-    background: #CFCFE4;
+    border: 2px solid var(--ae-1);
+    color: var(--ae-1);
+    background: var(--ae-2);
 }
 
 .ae-c {
-    color: #9A9AFF;
+    color: var(--ae-1);
 }
 
 .py-l {
-    border: 2px solid #3372A2;
-    color: #3372A2;
-    background: #CADEEE;
+    border: 2px solid var(--py-1);
+    color: var(--py-1);
+    background: var(--py-2);
 }
 
 .py-c {
-    color: #3372A2;
+    color: var(--py-1);
 }
 
 .and-l {
-    border: 2px solid #089C5F;
-    color: #089C5F;
-    background: #E7F6EF;
+    border: 2px solid var(--and-1);
+    color: var(--and-1);
+    background: var(--and-2);
 }
 
 .and-c {
-    color: #089C5F;
+    color: var(--and-1);
+}
+
+.mongo-l {
+    border: 2px solid var(--mongo-1);
+    color: var(--mongo-1);
+    background: var(--mongo-2);
+}
+
+.mongo-c {
+    color: var(--mongo-1);
 }
 
 .counter-l {
-    border: 2px solid #000000;
-    color: #000000;
-    background: #EFEFEF;
+    border: 2px solid var(--counter-1);
+    color: var(--counter-1);
+    background: var(--counter-2);
 }
 
 .counter-c {
-    color: #000000;
+    color: var(--counter-1);
 }
 
 ::-webkit-scrollbar {
@@ -396,6 +469,7 @@ nav {
     padding: 5px 15px;
     border-radius: 50px;
     cursor: pointer;
+    transition: all 0.1s ease;
 }
 
 .nav_indicator--active {
@@ -468,6 +542,11 @@ section {
     height: 225px;
     width: 350px;
     position: relative;
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+        box-shadow: 0px 2px 3px 0px var(--stroke);
+    }
 }
 
 .project img {
@@ -806,16 +885,6 @@ section {
     font-size: 20px;
     margin-top: 10px;
     animation: fade-in 0.5s ease forwards;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-li::marker {
-    color: var(--text);
 }
 
 /* FOOTER ========================================================================================================================================================= */

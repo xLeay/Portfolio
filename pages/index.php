@@ -36,44 +36,39 @@
                 <p class="project_name">Mont-Saint-Michel</p>
             </div>
 
+
             <div class="projects_grid__item">
-                <a href="/champions-mastery">
-                    <div class="card project" style="background: #F9F9F9;">
-                        <img src="/src/img/projects/championsmastery.png" alt="Mont-Saint-Michel" style="object-fit: contain;">
+                <a href="/vill-innov">
+                    <div class="card project">
+                        <img src="/src/img/projects/vill-innov.png" alt="Vill'innov">
                         <div class="skill__label-wrapper">
-                            <div class="skill__label js-l">
-                                <p>js</p>
+
+                            <div class="skill__label php-l">
+                                <p>php</p>
                             </div>
+
                             <div class="skill__label html-l">
                                 <p>html</p>
                             </div>
+
                             <div class="skill__label css-l">
                                 <p>css</p>
                             </div>
-                        </div>
-                    </div>
-                </a>
 
-                <p class="project_name">Lol champions mastery</p>
-            </div>
-
-            <div class="projects_grid__item">
-                <a href="/calls">
-                    <div class="card project">
-                        <img src="/src/img/projects/calls.png" alt="Mont-Saint-Michel">
-                        <div class="skill__label-wrapper">
-                            <div class="skill__label pr-l">
-                                <p>pr</p>
+                            <div class="skill__label mongo-l">
+                                <p>mongodb</p>
                             </div>
-                            <div class="skill__label ae-l">
-                                <p>ae</p>
+
+                            <div class="skill__label js-l">
+                                <p>js</p>
                             </div>
                         </div>
                     </div>
                 </a>
 
-                <p class="project_name">Calls tribute</p>
+                <p class="project_name">Vill'innov</p>
             </div>
+
 
             <div class="projects_grid__item">
                 <a href="/thesesviz">
@@ -104,6 +99,48 @@
                 <p class="project_name">Theseviz</p>
             </div>
 
+
+            <div class="projects_grid__item">
+                <a href="/champions-mastery">
+                    <div class="card project" style="background: #F9F9F9;">
+                        <img src="/src/img/projects/championsmastery.png" alt="Mont-Saint-Michel" style="object-fit: contain;">
+                        <div class="skill__label-wrapper">
+                            <div class="skill__label js-l">
+                                <p>js</p>
+                            </div>
+                            <div class="skill__label html-l">
+                                <p>html</p>
+                            </div>
+                            <div class="skill__label css-l">
+                                <p>css</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <p class="project_name">Lol champions mastery</p>
+            </div>
+
+
+            <div class="projects_grid__item">
+                <a href="/calls">
+                    <div class="card project">
+                        <img src="/src/img/projects/calls.png" alt="Mont-Saint-Michel">
+                        <div class="skill__label-wrapper">
+                            <div class="skill__label pr-l">
+                                <p>pr</p>
+                            </div>
+                            <div class="skill__label ae-l">
+                                <p>ae</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <p class="project_name">Calls tribute</p>
+            </div>
+
+
             <div class="projects_grid__item">
                 <a href="/loop-hero">
                     <div class="card project">
@@ -118,6 +155,7 @@
 
                 <p class="project_name">Loop hero</p>
             </div>
+
 
             <div class="projects_grid__item">
                 <a href="/boggle">
@@ -155,6 +193,7 @@
 
                 <p class="project_name">Boggle</p>
             </div>
+
 
             <div class="projects_grid__item">
                 <a href="/azul">
